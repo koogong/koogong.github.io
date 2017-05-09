@@ -10,7 +10,7 @@
     
     <title>
         
-            归档: 2017 | 
+            Lottie | 
         
         koogong
     </title>
@@ -58,7 +58,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://koogong.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2017 | koogong">
+    <meta property="og:title" content="Lottie | koogong">
     <meta property="og:description" content="null">
     
 
@@ -221,155 +221,270 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Lottie的使用"><span class="post-toc-number">1.</span> <span class="post-toc-text">Lottie的使用</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#什么是Lottie"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">什么是Lottie</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Lottie动画文件"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">Lottie动画文件</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Lottie使用"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Lottie使用</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#添加JSON文件动画"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">添加JSON文件动画</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#创建LOAnimationView"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">创建LOAnimationView</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#参考："><span class="post-toc-number">1.6.</span> <span class="post-toc-text">参考：</span></a></li></ol></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script>
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/09/Lottie的使用/">Lottie</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            ...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/09/Lottie的使用/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/koogong.JPG" width="44px" height="44px" alt="koogong's avatar">
-            </div>
-            <div>
-                <strong>koogong</strong>
-                <span>5月 09, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/Objective-C/">Objective-C</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/07/hello-world/">Hello Hexo</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            什么...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/07/hello-world/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/koogong.JPG" width="44px" height="44px" alt="koogong's avatar">
-            </div>
-            <div>
-                <strong>koogong</strong>
-                <span>5月 07, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/programming/">programming</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                Lottie
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/koogong.JPG" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>koogong</strong>
+        <span>5月 09, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Lottie&url=http://koogong.com//2017/05/09/Lottie的使用/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Lottie&url=http://koogong.com//2017/05/09/Lottie的使用/index.html&via=koogong" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://koogong.com//2017/05/09/Lottie的使用/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://koogong.com//2017/05/09/Lottie的使用/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h2 id="Lottie的使用"><a href="#Lottie的使用" class="headerlink" title="Lottie的使用"></a>Lottie的使用</h2><h3 id="什么是Lottie"><a href="#什么是Lottie" class="headerlink" title="什么是Lottie"></a>什么是Lottie</h3><p><a href="https://github.com/airbnb/lottie-ios" target="_blank" rel="external">Lottie</a>是一款由Airbnb开发，iOS，macOS，Android和React Native库，可在任何本机应用程序中呈现After Effects动画。动画通过一个名为<a href="https://github.com/bodymovin/bodymovin" target="_blank" rel="external">Bodymovin</a>的开源After Effects扩展作为JSON文件导出。Lottie以JSON格式加载动画数据，并实时渲染动画。</p>
+<p>Lottie还支持原生的<strong>UIViewController Transitions</strong>开箱即用。</p>
+<blockquote>
+<p>这只是Lottie力量的小部分</p>
+</blockquote>
+<p>所以通过Lottie来加载动画相比编写一些代码来创建动画可以节省大量的时间。</p>
+<h3 id="Lottie动画文件"><a href="#Lottie动画文件" class="headerlink" title="Lottie动画文件"></a>Lottie动画文件</h3><p>在使用Lottie之前，首先需要将动画数据导出为JSON文件。如果您已经有After Effects动画，请使用名为<a href="https://github.com/bodymovin/bodymovin" target="_blank" rel="external">Bodymovin的扩展名</a>创建JSON文件。</p>
+<p><strong><a href="http://www.lottiefiles.com/" target="_blank" rel="external">Lottie Files</a></strong></p>
+<p>一个拥有Lottie文件格式的高质量动画的网站。</p>
+<h3 id="Lottie使用"><a href="#Lottie使用" class="headerlink" title="Lottie使用"></a>Lottie使用</h3><blockquote>
+<p>使用Lottie之前需要使用CocoaPods。</p>
+</blockquote>
+<p><strong>使用CocoaPods安装Lottie库</strong></p>
+<ol>
+<li>创建一个项目后，退出Xcode。</li>
+<li>通过终端在项目根目录下创建一个<strong>Podfile</strong>,如下所示：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">target <span class="string">'LottieDemo'</span> <span class="keyword">do</span></div><div class="line">	pod <span class="string">'lottie-ios'</span></div><div class="line">end</div></pre></td></tr></table></figure>
+<p>通过<code>pod &#39;lottie-ios&#39;</code>来只是该项目所需的Pod。<code>LottieDemo</code>为项目名称。</p>
+<ol>
+<li>回到终端运行指令：</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pod install</div></pre></td></tr></table></figure>
+<ol>
+<li>注意</li>
+</ol>
+<ul>
+<li>将 CocoaPods 将会生成一个<code>.xcworkspace</code>文件来，而以后通过该文件来打开工程而不是以前的<code>.xcodeproj</code>文件。</li>
+<li>每次更改了<strong>Podfile</strong>文件，都需执行一次<code>pod update</code>指令。</li>
+</ul>
+<h3 id="添加JSON文件动画"><a href="#添加JSON文件动画" class="headerlink" title="添加JSON文件动画"></a>添加JSON文件动画</h3><p>lottiefiles.com以JSON文件的形式下载<a href="http://www.lottiefiles.com/159-servishero-loading" target="_blank" rel="external">这个免费的</a>动画。我们将使用它来进行快速演示。</p>
+<p>将JSON文件<code>servishero_loading.json</code>拖入Xcode项目的项目导航器中。并放在<strong>LottieDemo</strong>目录下。</p>
+<p><img src="/Users/koogong/Desktop/屏幕快照 2017-05-09 上午8.59.36.png" alt="屏幕快照 2017-05-09 上午8.59.36"></p>
+<h3 id="创建LOAnimationView"><a href="#创建LOAnimationView" class="headerlink" title="创建LOAnimationView"></a>创建LOAnimationView</h3><p>在<strong>ViewController.m</strong>中先添加一行代码导入Lottie库：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#import &lt;Lottie/Lottie.h&gt;</div></pre></td></tr></table></figure>
+<p>在<code>viewDidLoad()</code>方法中使用LOTAnimationView:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">//需要呈现的代码段，Lottie有一个类名 LOTAnimationView，它加载了JSON文件中的动画数据。</div><div class="line">//要显示动画，必须 LOTAnimaationView使用之前下载的JSON文件创建一个对象</div><div class="line">LOTAnimationView *animation = [LOTAnimationView animationNamed:@&quot;servishero_loading&quot;];</div><div class="line"></div><div class="line">[self.view addSubview:animation];</div><div class="line"></div><div class="line">animation.frame = CGRectMake(0, 0, 400, 600);</div><div class="line"></div><div class="line">animation.center = self.view.center;//中心</div><div class="line"></div><div class="line">animation.loopAnimation = true;//循环动画</div><div class="line"></div><div class="line">animation.animationSpeed = 0.5;//动画的速度</div><div class="line"></div><div class="line">//animation.transform = CGAffineTransformRotate(self.view.transform, 45.0);//旋转45度</div><div class="line">    </div><div class="line">[animation playWithCompletion:^(BOOL animationFinished) &#123;</div><div class="line">        //do Something</div><div class="line">        &#125;];</div></pre></td></tr></table></figure>
+<p>这还是最简单的方法</p>
+<p>如果正在使用多个软件包：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">LOTAnimationView * animation = [LOTAnimationView animationNamed：@“ Lottie ”  inBundle： [ NSBundle  YOUR_BUNDLE ]];</div><div class="line">[ self .view addSubview： animation];</div><div class="line">[Animation playWithCompletion： ^（BOOL animationFinished）&#123;</div><div class="line">   // Do Something </div><div class="line">&#125;];</div></pre></td></tr></table></figure>
+<p>或者可以从<strong>NSURL</strong>以编程方式加载它：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">LOTAnimationView * animation = [[LOTAnimationView alloc ] initWithContentsOfURL： [ NSURL  URLWithString： URL]];</div><div class="line">[ self .view addSubview： animation];</div></pre></td></tr></table></figure>
+<p>目前只了解到了这些更多可以看参考。</p>
+<h3 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h3><p><a href="https://github.com/airbnb/lottie-ios" target="_blank" rel="external">https://github.com/airbnb/lottie-ios</a></p>
+<p><a href="http://www.lottiefiles.com/" target="_blank" rel="external">http://www.lottiefiles.com/</a></p>
+<p><a href="http://www.appcoda.com/lottie-beginner-guide/" target="_blank" rel="external">http://www.appcoda.com/lottie-beginner-guide/</a></p>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/05/07/hello-world/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
